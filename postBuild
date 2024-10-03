@@ -1,1 +1,4 @@
+#!/bin/bash
 
+# Run the start script to export the token and configure Git
+bash start
