@@ -3,3 +3,6 @@ export GITHUB_TOKEN=github_pat_11AKLYB6A0qetLvLRzmhD5_NGb6tZHREILSGW1dzyeptrmrkj
 
 # Configure Git to use the token for accessing private repositories
 git config --global url."https://$GITHUB_TOKEN:@github.com/".insteadOf "https://github.com/"
+
+# Additional commands if needed (like pulling a private repository)
+git clone https://github.com/wuld666/my-first-binder
