@@ -1,0 +1,14 @@
+/* Hide the "Download as" option in the File menu */
+#download_as, .jp-ToolbarButtonComponent-label{
+    display: none !important;
+}
+
+/* Hide the Save and Download buttons in the toolbar */
+#save-notbook, .btn-group .btn {
+    display: none !important;
+}
+
+/* Hide any other download-related buttons */
+.btn[data-jupyter-action="filemenu:download"] {
+    display: none !important;
+}
