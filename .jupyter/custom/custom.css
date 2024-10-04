@@ -14,7 +14,7 @@
 }
 
 /* Targeting elements with aria-label="JupyterLab" */
-[data-jp-item-name="loadFromBrowser"], [data-jp-item-name="interfaceSwitcher"], [data-jp-item-name="debugger-icon"], [data-jp-item-name="kernelName"], [data-jp-item-name="executionProgress"], [data-jp-item-name="scrollbar"], [data-jp-item-name="linkToBinder"], [data-jp-item-name="openRepo"], [data-jp-item-name="openRepo"], [data-jp-item-name="saveToBrowser"]{
+[data-jp-item-name="loadFromBrowser"], [data-jp-item-name="interfaceSwitcher"], [data-jp-item-name="debugger-icon"], [data-jp-item-name="kernelName"], [data-jp-item-name="executionProgress"], [data-jp-item-name="scrollbar"], [data-jp-item-name="linkToBinder"], [data-jp-item-name="openRepo"], [data-jp-item-name="downloadVisible"], [data-jp-item-name="saveToBrowser"]{
     display: none !important;
 }
 
